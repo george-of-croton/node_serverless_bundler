@@ -1,7 +1,7 @@
 {
   "name": "node_serverless_bundler",
   "version": "1.0.0",
-  "description": "",
+  "description": "create lambda bundles for node projects!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,8 +15,6 @@
   },
   "dependencies": {
     "babel-core": "^6.26.0",
-    "babel-plugin-shebang": "0.0.0",
-    "babel-preset-es2015": "^6.24.1",
-    "child-process": "^1.0.2"
+    "babel-preset-es2015": "^6.24.1"
   }
 }

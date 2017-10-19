@@ -32,6 +32,7 @@ function bundle_function(argument, correct_path) {
   console.log("zip -r " + argument + ".zip " + correct_path.prefix + argument);
   const zip = spawn("zip", [
     "-r",
+    "-q",
     argument + ".zip",
     correct_path.prefix + argument
   ]);

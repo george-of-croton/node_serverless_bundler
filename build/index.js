@@ -36,7 +36,7 @@ function resolve_path(argument, callback) {
 
 function bundle_function(argument, correct_path) {
   console.log("zip -r " + argument + ".zip " + correct_path.prefix + argument);
-  var zip = (0, _child_process.spawn)("zip", ["-r", argument + ".zip", correct_path.prefix + argument]);
+  var zip = (0, _child_process.spawn)("zip", ["-r", "-q", argument + ".zip", correct_path.prefix + argument]);
   zip.stdout.pipe(process.stdout);
   zip.on("error", function (err) {
     console.log(err);
