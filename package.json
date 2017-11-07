@@ -1,6 +1,6 @@
 {
   "name": "node_serverless_bundler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "create lambda bundles for node projects!",
   "main": "index.js",
   "scripts": {
