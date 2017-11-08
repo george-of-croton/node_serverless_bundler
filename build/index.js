@@ -62,7 +62,6 @@ function resolve_node_modules() {
   var correct_path = {};
   prefixes.forEach(function (prefix) {
     path.path = prefix + "node_modules";
-    console.log(path.path);
     if (_fs2.default.existsSync(path.path)) {
       correct_path.path = path.path;
       correct_path.prefix = prefix;
